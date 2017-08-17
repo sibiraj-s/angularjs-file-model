@@ -1,0 +1,47 @@
+{
+  "name": "angularjs-file-model",
+  "version": "1.0.0",
+  "description": "AngularJS directive to support NgModel for HTML file types",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Sibiraj-S/angularjs-file-model.git"
+  },
+  "author": "Sibiraj-S",
+  "license": "MIT",
+  "dependencies": {
+    "angular": ">=1.6.0"
+  },
+  "bugs": {
+    "url": "https://github.com/Sibiraj-S/angularjs-file-model/issues"
+  },
+  "homepage": "https://github.com/Sibiraj-S/angularjs-file-model",
+  "devDependencies": {
+    "commitizen": "^2.9.6",
+    "cz-conventional-changelog": "^2.0.0",
+    "grunt": "^1.0.1",
+    "grunt-coffeelint": "^0.0.16",
+    "grunt-contrib-coffee": "^1.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-uglify": "^3.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "husky": "^0.14.3",
+    "load-grunt-tasks": "^3.5.2"
+  },
+  "scripts": {
+    "precz": "yarn test",
+    "precommit": "grunt dist; yarn test; git add .",
+    "cz": "git-cz",
+    "test": "grunt coffeelint"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    }
+  },
+  "keywords": [
+    "angularjs-file-model",
+    "ng-file-model",
+    "angularjs-file",
+    "ng-file"
+  ]
+}

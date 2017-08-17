@@ -1,0 +1,19 @@
+{
+  "name": "angularjs-file-model",
+  "description": "AngularJS directive to support NgModel for HTML file types",
+  "authors": [
+    "Sibiraj-S"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/Sibiraj-S/angularjs-file-model",
+  "dependencies": {
+    "angular": ">=1.6.0"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
