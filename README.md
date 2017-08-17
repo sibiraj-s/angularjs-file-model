@@ -1,6 +1,6 @@
 # angularjs-file-model
 
-AngularJS directive to support NgModel for HTML file types
+AngularJS directive to support NgModel for HTML input file types
 
 ## Getting Started
 

@@ -1,6 +1,6 @@
 /*!
  * @module angularjs-file-model
- * @description AngularJS directive to support NgModel for HTML file types
+ * @description AngularJS directive to support NgModel for HTML input file types
  * @version v1.0.0
  * @link https://github.com/Sibiraj-S/angularjs-file-model
  * @licence MIT License, https://opensource.org/licenses/MIT

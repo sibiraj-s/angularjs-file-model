@@ -1,6 +1,6 @@
 {
   "name": "angularjs-file-model",
-  "description": "AngularJS directive to support NgModel for HTML file types",
+  "description": "AngularJS directive to support NgModel for HTML input file types",
   "authors": [
     "Sibiraj-S"
   ],
