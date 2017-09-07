@@ -1,6 +1,6 @@
 {
   "name": "angularjs-file-model",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "AngularJS directive to support NgModel for HTML input file types",
   "repository": {
     "type": "git",
@@ -29,7 +29,7 @@
   },
   "scripts": {
     "precz": "yarn test",
-    "precommit": "grunt dist; yarn test; git add .",
+    "precommit": "grunt dist && yarn test && git add .",
     "cz": "git-cz",
     "test": "grunt coffeelint"
   },
