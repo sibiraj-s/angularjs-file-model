@@ -59,6 +59,16 @@ and in your html
 <input type="file" ng-model="files" file-model ng-change="onFileSelect()">
 ```
 
+or
+
+```html
+<input type="file" ng-model="files" file-model as-file ng-change="onFileSelect()">
+```
+
+### Option
+
+`as-file` will bind the file object to the ng-model without it only plain object with file properties will bind to ng-model
+
 [angularjs-file-model]: https://github.com/Sibiraj-S/angularjs-file-model
 [bower]: https://bower.io/
 [github]: https://sibiraj-s.github.io/
