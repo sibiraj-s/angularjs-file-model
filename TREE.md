@@ -7,6 +7,8 @@
 ├── src
 │   └── fileModel.coffee
 ├── .gitignore
+├── .pullapprove.yml
+├── .travis.yml
 ├── Gruntfile.coffee
 ├── LICENSE
 ├── README.md
