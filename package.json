@@ -28,6 +28,8 @@
     "load-grunt-tasks": "^3.5.2"
   },
   "scripts": {
+    "develop": "grunt develop",
+    "build": "grunt dist",
     "precz": "yarn test",
     "precommit": "grunt dist && yarn test && git add .",
     "cz": "git-cz",
