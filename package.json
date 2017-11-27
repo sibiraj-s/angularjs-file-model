@@ -31,7 +31,7 @@
     "develop": "grunt develop",
     "build": "grunt dist",
     "precz": "yarn test",
-    "precommit": "grunt dist && yarn test && git add .",
+    "precommit": "yarn run build && yarn run test && git add .",
     "cz": "git-cz",
     "test": "grunt coffeelint"
   },
