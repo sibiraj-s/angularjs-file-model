@@ -8,9 +8,6 @@
   },
   "author": "Sibiraj-S",
   "license": "MIT",
-  "dependencies": {
-    "angular": ">=1.6.0"
-  },
   "bugs": {
     "url": "https://github.com/Sibiraj-S/angularjs-file-model/issues"
   },
