@@ -50,6 +50,6 @@ module.exports = (grunt) ->
   # Grunt task(s).
   grunt.registerTask "default", ["coffeelint", "coffee"]
   grunt.registerTask "develop", ["default", "watch"]
-  grunt.registerTask "dist", ["default", "concat", "uglify"]
+  grunt.registerTask "build", ["default", "concat", "uglify"]
 
   return
