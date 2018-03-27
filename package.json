@@ -1,6 +1,6 @@
 {
   "name": "angularjs-file-model",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "AngularJS directive to support NgModel for HTML input file types",
   "repository": {
     "type": "git",
