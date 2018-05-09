@@ -1,33 +1,8 @@
 {
   "name": "angularjs-file-model",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "AngularJS directive to support NgModel for HTML input file types",
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/Sibiraj-S/angularjs-file-model.git"
-  },
-  "author": "Sibiraj-S",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Sibiraj-S/angularjs-file-model/issues"
-  },
-  "homepage": "https://github.com/Sibiraj-S/angularjs-file-model",
-  "devDependencies": {
-    "angular": "^1.6.9",
-    "commitizen": "^2.9.6",
-    "cz-conventional-changelog": "^2.1.0",
-    "grunt": "^1.0.2",
-    "grunt-coffeelint": "^0.0.16",
-    "grunt-contrib-coffee": "^2.0.0",
-    "grunt-contrib-concat": "^1.0.1",
-    "grunt-contrib-uglify": "^3.3.0",
-    "grunt-contrib-watch": "^1.0.0",
-    "husky": "^0.14.3",
-    "load-grunt-tasks": "^3.5.2"
-  },
-  "peerDependencies": {
-    "angular": ">=1.6.0"
-  },
   "scripts": {
     "build": "grunt build",
     "cz": "git-cz",
@@ -42,15 +17,40 @@
     "test": "npm run lint",
     "watch": "grunt watch"
   },
-  "config": {
-    "commitizen": {
-      "path": "node_modules/cz-conventional-changelog"
-    }
-  },
   "keywords": [
     "angularjs-file-model",
     "ng-file-model",
     "angularjs-file",
     "ng-file"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Sibiraj-S/angularjs-file-model.git"
+  },
+  "author": "Sibiraj-S",
+  "bugs": {
+    "url": "https://github.com/Sibiraj-S/angularjs-file-model/issues"
+  },
+  "homepage": "https://github.com/Sibiraj-S/angularjs-file-model",
+  "peerDependencies": {
+    "angular": ">=1.6.0"
+  },
+  "devDependencies": {
+    "angular": "^1.6.10",
+    "commitizen": "^2.9.6",
+    "cz-conventional-changelog": "^2.1.0",
+    "grunt": "^1.0.2",
+    "grunt-coffeelint": "^0.0.16",
+    "grunt-contrib-coffee": "^2.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-uglify": "^3.3.0",
+    "grunt-contrib-watch": "^1.0.1",
+    "husky": "^0.14.3",
+    "load-grunt-tasks": "^4.0.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    }
+  }
 }
