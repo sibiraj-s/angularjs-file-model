@@ -1,6 +1,6 @@
 {
   "name": "angularjs-file-model",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "AngularJS directive to support NgModel for HTML input file types",
   "license": "MIT",
   "scripts": {
