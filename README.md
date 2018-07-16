@@ -1,4 +1,4 @@
-# angularjs-file-model [![Build Status](https://travis-ci.org/Sibiraj-S/angularjs-file-model.svg?branch=master)](https://travis-ci.org/Sibiraj-S/angularjs-file-model)
+# angularjs-file-model [![Build Status](https://travis-ci.com/Sibiraj-S/angularjs-file-model.svg?branch=master)](https://travis-ci.com/Sibiraj-S/angularjs-file-model)
 
 AngularJS directive to support NgModel for HTML input file types
 
