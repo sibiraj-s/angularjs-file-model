@@ -11,12 +11,15 @@ module.exports = (grunt) ->
   require('load-grunt-tasks')(grunt)
 
   grunt.initConfig
-    pkg: grunt.file.readJSON("package.json")
+    pkg: grunt.file.readJSON('package.json')
 
-    coffeelint:
+    coffeelintr:
       options:
         configFile: 'coffeelint.json'
-      source: ['src/fileModel.coffee']
+      source: ['src/fileModel.coffee', 'Gruntfile.coffee']
+
+    eslint:
+      target: ['scripts/**/*.js']
 
     coffee:
       compileJoined:
@@ -48,8 +51,9 @@ module.exports = (grunt) ->
         tasks: ['default']
 
   # Grunt task(s).
-  grunt.registerTask "default", ["coffeelint", "coffee"]
-  grunt.registerTask "develop", ["default", "watch"]
-  grunt.registerTask "build", ["default", "concat", "uglify"]
+  grunt.registerTask 'default', ['coffeelintr', 'coffee']
+  grunt.registerTask 'lint', ['coffeelintr', 'eslint']
+  grunt.registerTask 'develop', ['default', 'watch']
+  grunt.registerTask 'build', ['default', 'concat', 'uglify']
 
   return
