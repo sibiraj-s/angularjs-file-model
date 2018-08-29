@@ -14,13 +14,13 @@ git clone git@github.com:Sibiraj-S/angularjs-file-model.git
 
 or use cdn
 
-#### Minified
+**Minified:**
 
 ```bash
 //unpkg.com/angularjs-file-model@latest/fileModel.min.js
 ```
 
-#### Pretty Printed
+**Pretty Printed:**
 
 ```bash
 //unpkg.com/angularjs-file-model@latest/fileModel.js
