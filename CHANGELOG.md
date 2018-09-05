@@ -15,7 +15,9 @@ All notable changes to this project will be documented in this file.
 
 #### Dependency Updates
 
-* update devDependencies ([ed7701c](https://github.com/Sibiraj-S/angularjs-file-model/commit/ed7701c))
+* update eslint to v5.5.0 ([fd3f179](https://github.com/Sibiraj-S/angularjs-file-model/commit/fd3f179))
+* update grunt-contrib-uglify to v4.0.0 ([fd3f179](https://github.com/Sibiraj-S/angularjs-file-model/commit/fd3f179))
+* update grunt-coffeelintr to v1.1.1 ([ed7701c](https://github.com/Sibiraj-S/angularjs-file-model/commit/ed7701c))
 
 #### Internal
 
