@@ -11,18 +11,22 @@ All notable changes to this project will be documented in this file.
 > - Documentation
 > - Internal
 
-## Unreleased
+## v1.0.7 (2018-10-05)
 
 #### Dependency Updates
 
-* update eslint to v5.5.0 ([fd3f179](https://github.com/sibiraj-s/angularjs-file-model/commit/fd3f179))
 * update grunt-contrib-uglify to v4.0.0 ([fd3f179](https://github.com/sibiraj-s/angularjs-file-model/commit/fd3f179))
 * update grunt-coffeelintr to v1.1.1 ([ed7701c](https://github.com/sibiraj-s/angularjs-file-model/commit/ed7701c))
+* update eslint to v5.6.1 ([cf81b12](https://github.com/sibiraj-s/angularjs-file-model/commit/cf81b12))
+* update husky to v1.1.0 ([cf81b12](https://github.com/sibiraj-s/angularjs-file-model/commit/cf81b12))
+* update eslint-plugin-promise to v4.0.1 ([cf81b12](https://github.com/sibiraj-s/angularjs-file-model/commit/cf81b12))
 
 #### Internal
 
 * apply standardjs rules to eslint ([a9d61c9](https://github.com/sibiraj-s/angularjs-file-model/commit/a9d61c9))
 * formatted files with two space indentation instead of four ([4ba0481](https://github.com/sibiraj-s/angularjs-file-model/commit/4ba0481))
+* remove vscode config in favour of editorconfig ([4644e54](https://github.com/sibiraj-s/angularjs-file-model/commit/4644e54))
+* update github username ([cb5852c](https://github.com/sibiraj-s/angularjs-file-model/commit/cb5852c))
 
 ## v1.0.6 (2018-07-27)
 
