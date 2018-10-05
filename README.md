@@ -1,4 +1,4 @@
-# angularjs-file-model [![Build Status](https://travis-ci.com/Sibiraj-S/angularjs-file-model.svg?branch=master)](https://travis-ci.com/Sibiraj-S/angularjs-file-model)
+# angularjs-file-model [![Build Status](https://travis-ci.com/sibiraj-s/angularjs-file-model.svg?branch=master)](https://travis-ci.com/sibiraj-s/angularjs-file-model)
 
 AngularJS directive to support NgModel for HTML input file types
 
@@ -9,7 +9,7 @@ AngularJS directive to support NgModel for HTML input file types
 You can directly clone/download [here][angularjs-file-model]
 
 ```bash
-git clone git@github.com:Sibiraj-S/angularjs-file-model.git
+git clone git@github.com:sibiraj-s/angularjs-file-model.git
 ```
 
 or use cdn
@@ -67,7 +67,7 @@ or
 
 `as-file` will bind the file object to the ng-model without it only plain object with file properties will bind to ng-model
 
-[angularjs-file-model]: https://github.com/Sibiraj-S/angularjs-file-model
+[angularjs-file-model]: https://github.com/sibiraj-s/angularjs-file-model
 [github]: https://sibiraj-s.github.io/
 [npm]: https://www.npmjs.com/
 [yarn]: https://yarnpkg.com/lang/en/

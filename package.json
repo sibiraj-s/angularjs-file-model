@@ -24,13 +24,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/Sibiraj-S/angularjs-file-model.git"
+    "url": "git+ssh://git@github.com/sibiraj-s/angularjs-file-model.git"
   },
-  "author": "Sibiraj-S",
+  "author": "sibiraj-s",
   "bugs": {
-    "url": "https://github.com/Sibiraj-S/angularjs-file-model/issues"
+    "url": "https://github.com/sibiraj-s/angularjs-file-model/issues"
   },
-  "homepage": "https://github.com/Sibiraj-S/angularjs-file-model",
+  "homepage": "https://github.com/sibiraj-s/angularjs-file-model",
   "private": true,
   "peerDependencies": {
     "angular": ">=1.6.0"
