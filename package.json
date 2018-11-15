@@ -3,6 +3,11 @@
   "version": "1.0.7",
   "description": "AngularJS directive to support NgModel for HTML input file types",
   "license": "MIT",
+  "private": true,
+  "author": "sibiraj-s",
+  "repository": "https://github.com/sibiraj-s/angularjs-file-model.git",
+  "bugs": "https://github.com/sibiraj-s/angularjs-file-model/issues",
+  "homepage": "https://github.com/sibiraj-s/angularjs-file-model",
   "scripts": {
     "build": "grunt build",
     "develop": "grunt develop",
@@ -22,16 +27,6 @@
     "angularjs-file",
     "ng-file"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/sibiraj-s/angularjs-file-model.git"
-  },
-  "author": "sibiraj-s",
-  "bugs": {
-    "url": "https://github.com/sibiraj-s/angularjs-file-model/issues"
-  },
-  "homepage": "https://github.com/sibiraj-s/angularjs-file-model",
-  "private": true,
   "peerDependencies": {
     "angular": ">=1.6.0"
   },
