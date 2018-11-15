@@ -8,6 +8,9 @@
   "repository": "https://github.com/sibiraj-s/angularjs-file-model.git",
   "bugs": "https://github.com/sibiraj-s/angularjs-file-model/issues",
   "homepage": "https://github.com/sibiraj-s/angularjs-file-model",
+  "engines": {
+    "node": "^10"
+  },
   "scripts": {
     "build": "grunt build",
     "develop": "grunt develop",
