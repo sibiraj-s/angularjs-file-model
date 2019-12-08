@@ -30,9 +30,6 @@
     "angularjs-file",
     "ng-file"
   ],
-  "peerDependencies": {
-    "angular": ">=1.6.0"
-  },
   "devDependencies": {
     "angular": "^1.7.9",
     "chalk": "^3.0.0",
