@@ -3,6 +3,7 @@
 All notable changes to this project will be documented in this file.
 
 > **Tags**
+>
 > - Features
 > - Bug Fixes
 > - Performance Improvements
@@ -12,14 +13,16 @@ All notable changes to this project will be documented in this file.
 > - Internal
 > - Unreleased
 
-## Unreleased
+## v1.0.8 (2019-12-09)
 
 #### Internal
 
-- replace `eslint-config-standard` with `eslint-config-airbnb-base` ([fd9dc2a](https://github.com/sibiraj-s/angularjs-file-model/commit/fd9dc2a))
+- migrate from travis-ci to github actions ([00c3118](https://github.com/sibiraj-s/angularjs-file-model/commit/00c3118))
+- add karma-jasmine unit tests ([7ee527a](https://github.com/sibiraj-s/angularjs-file-model/commit/7ee527a))
 
 #### Dependency Updates
 
+- bump devDependencies ([b79a790](https://github.com/sibiraj-s/angularjs-file-model/commit/b79a790))
 - update eslint to v5.11.1 ([fd9dc2a](https://github.com/sibiraj-s/angularjs-file-model/commit/fd9dc2a))
 - update grunt-coffeelintr to v1.1.2 ([fd9dc2a](https://github.com/sibiraj-s/angularjs-file-model/commit/fd9dc2a))
 - update husky to v1.3.1 ([fd9dc2a](https://github.com/sibiraj-s/angularjs-file-model/commit/fd9dc2a))
