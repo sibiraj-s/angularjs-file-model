@@ -14,7 +14,8 @@
   "scripts": {
     "build": "grunt build",
     "develop": "grunt develop",
-    "lint": "grunt lint",
+    "eslint": "eslint . --ignore-path .gitignore",
+    "lint": "grunt coffeelint && npm run eslint",
     "postbuild": "sh ./scripts/postbuild.sh",
     "prebuild": "sh ./scripts/prebuild.sh",
     "prepublishOnly": "node ./scripts/prepublish.js",
@@ -45,7 +46,6 @@
     "grunt-contrib-concat": "^1.0.1",
     "grunt-contrib-uglify": "^4.0.1",
     "grunt-contrib-watch": "^1.1.0",
-    "grunt-eslint": "^22.0.0",
     "husky": "^3.1.0",
     "karma": "^4.4.1",
     "karma-chrome-launcher": "^3.1.0",

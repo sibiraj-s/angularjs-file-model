@@ -18,9 +18,6 @@ module.exports = (grunt) ->
         configFile: 'coffeelint.json'
       source: ['src/fileModel.coffee', 'Gruntfile.coffee']
 
-    eslint:
-      target: ['scripts/**/*.js']
-
     coffee:
       compileJoined:
         options:
@@ -52,7 +49,7 @@ module.exports = (grunt) ->
 
   # Grunt task(s).
   grunt.registerTask 'default', ['coffeelintr', 'coffee']
-  grunt.registerTask 'lint', ['coffeelintr', 'eslint']
+  grunt.registerTask 'coffeelint', ['coffeelintr']
   grunt.registerTask 'develop', ['default', 'watch']
   grunt.registerTask 'build', ['default', 'concat', 'uglify']
 
