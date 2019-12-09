@@ -5,15 +5,15 @@ app = angular.module 'angularjsFileModel', []
 app.directive 'fileModel', ->
 
   require: 'ngModel'
-  link: (scope, element, attrs, ngModel) ->
-    element.on 'change', (e) ->
+  link: (_, element, attrs, ngModel) ->
+    element.on 'change', (event) ->
 
       files = []
 
       if attrs.asFile isnt undefined
-        files = element[0].files
+        files = event.target.files
       else
-        angular.forEach element[0].files, (item) ->
+        angular.forEach event.target.files, (item) ->
           file =
             name: item.name
             size: item.size
