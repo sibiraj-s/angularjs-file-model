@@ -13,11 +13,6 @@ module.exports = (grunt) ->
   grunt.initConfig
     pkg: grunt.file.readJSON('package.json')
 
-    coffeelintr:
-      options:
-        configFile: 'coffeelint.json'
-      source: ['src/fileModel.coffee', 'Gruntfile.coffee']
-
     coffee:
       compileJoined:
         options:
@@ -48,8 +43,7 @@ module.exports = (grunt) ->
         tasks: ['default']
 
   # Grunt task(s).
-  grunt.registerTask 'default', ['coffeelintr', 'coffee']
-  grunt.registerTask 'coffeelint', ['coffeelintr']
+  grunt.registerTask 'default', ['coffee']
   grunt.registerTask 'develop', ['default', 'watch']
   grunt.registerTask 'build', ['default', 'concat', 'uglify']
 

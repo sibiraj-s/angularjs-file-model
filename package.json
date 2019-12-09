@@ -14,8 +14,6 @@
   "scripts": {
     "build": "grunt build",
     "develop": "grunt develop",
-    "eslint": "eslint . --ignore-path .gitignore",
-    "lint": "grunt coffeelint && npm run eslint",
     "postbuild": "sh ./scripts/postbuild.sh",
     "prebuild": "sh ./scripts/prebuild.sh",
     "prepublishOnly": "node ./scripts/prepublish.js",
@@ -35,13 +33,14 @@
     "angular": "^1.7.9",
     "angular-mocks": "^1.7.9",
     "chalk": "^3.0.0",
+    "coffeelint": "^2.1.0",
+    "coffeelint-reporter": "^1.0.6",
     "eslint": "^6.7.2",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-angular": "^4.0.1",
     "eslint-plugin-import": "^2.19.1",
     "eslint-plugin-jasmine": "^4.1.0",
     "grunt": "^1.0.4",
-    "grunt-coffeelintr": "^1.1.3",
     "grunt-contrib-coffee": "^2.1.0",
     "grunt-contrib-concat": "^1.0.1",
     "grunt-contrib-uglify": "^4.0.1",
@@ -50,6 +49,7 @@
     "karma": "^4.4.1",
     "karma-chrome-launcher": "^3.1.0",
     "karma-jasmine": "^2.0.1",
+    "lint-staged": "^9.5.0",
     "load-grunt-tasks": "^5.1.0"
   }
 }
