@@ -9,7 +9,7 @@
   "bugs": "https://github.com/sibiraj-s/angularjs-file-model/issues",
   "homepage": "https://github.com/sibiraj-s/angularjs-file-model",
   "engines": {
-    "node": "^10"
+    "node": ">=10"
   },
   "scripts": {
     "build": "grunt build",
