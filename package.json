@@ -20,7 +20,6 @@
     "prepublishOnly": "node ./scripts/prepublish.js",
     "prerelease": "npm run build",
     "release": "sh ./scripts/release.sh",
-    "start": "grunt serve",
     "test": "npm run lint",
     "watch": "grunt watch"
   },
