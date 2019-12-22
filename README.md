@@ -9,7 +9,7 @@ AngularJS directive to support NgModel for HTML input file types
 You can directly clone/download [here][angularjs-file-model]
 
 ```bash
-git clone git@github.com:sibiraj-s/angularjs-file-model.git
+git clone https://github.com/sibiraj-s/angularjs-file-model.git
 ```
 
 or use cdn
