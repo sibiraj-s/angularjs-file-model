@@ -28,6 +28,29 @@ module.exports = (grunt) ->
         files:
           'dist/fileModel.js': ['dist/fileModel.js']
 
+    clean:
+      outDir:
+        src: 'dist/'
+
+    copy:
+      files:
+        expand: true
+        src: ['LICENSE', 'README.md', 'CHANGELOG.md']
+        dest: 'dist/'
+      pkgJson:
+        expand: true
+        src: 'package.json'
+        dest: 'dist/'
+        options:
+          process: (data) ->
+            pkg = JSON.parse(data)
+            pkg.main = 'fileModel.min.js'
+            delete pkg.scripts
+            delete pkg.devDependencies
+            delete pkg.engines
+            delete pkg.private
+            JSON.stringify pkg, null, 2
+
     uglify:
       options:
         sourceMap: true
@@ -45,6 +68,6 @@ module.exports = (grunt) ->
   # Grunt task(s).
   grunt.registerTask 'default', ['coffee']
   grunt.registerTask 'develop', ['default', 'watch']
-  grunt.registerTask 'build', ['default', 'concat', 'uglify']
+  grunt.registerTask 'build', ['clean', 'default', 'concat', 'uglify', 'copy']
 
   return
