@@ -12,6 +12,8 @@
     "node": ">=10"
   },
   "scripts": {
+    "lint:js": "eslint . --ignore-path .gitignore",
+    "lint": "npm run lint:js",
     "build": "grunt build",
     "develop": "grunt develop",
     "prepublishOnly": "node ./scripts/prepublish.js",
@@ -35,6 +37,7 @@
     "coffeelint-reporter": "^2.0.2",
     "eslint": "^7.4.0",
     "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-pegasus": "^1.0.0",
     "eslint-plugin-angular": "^4.0.1",
     "eslint-plugin-import": "^2.22.0",
     "grunt": "^1.2.0",
