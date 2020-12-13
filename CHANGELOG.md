@@ -13,6 +13,12 @@ All notable changes to this project will be documented in this file.
 > - Internal
 > - Unreleased
 
+## v1.0.9 (2019-12-13)
+
+#### Internal
+
+- update LICENSE ([2e52677](https://github.com/sibiraj-s/angularjs-file-model/commit/2e52677))
+
 ## v1.0.8 (2019-12-09)
 
 #### Internal
