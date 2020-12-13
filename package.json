@@ -16,9 +16,6 @@
     "lint": "npm run lint:js",
     "build": "grunt build",
     "develop": "grunt develop",
-    "prepublishOnly": "node ./scripts/prepublish.js",
-    "prerelease": "npm run build",
-    "release": "sh ./scripts/release.sh",
     "test": "karma start --single-run",
     "test:watch": "karma start",
     "watch": "grunt watch"
