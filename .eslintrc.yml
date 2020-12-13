@@ -1,13 +1,18 @@
 extends:
-  - airbnb-base
   - pegasus
 
 plugins:
   - angular
 
-rules:
-  import/no-extraneous-dependencies: off
-  no-console: off
+overrides:
+  - files: '!src/*'
+    extends:
+      - pegasus/node
+    rules:
+      no-console: off
+  - files: 'tests/*'
+    rules:
+      func-style: off
 
 env:
   browser: true
