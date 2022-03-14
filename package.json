@@ -33,9 +33,9 @@
     "@commitlint/config-conventional": "^16.2.1",
     "angular": "^1.8.2",
     "angular-mocks": "^1.8.2",
-    "coffeelint-reporter": "^2.0.3",
-    "eslint": "^8.9.0",
-    "eslint-config-pegasus": "^3.2.0",
+    "coffeelint-reporter": "^3.0.0",
+    "eslint": "^8.11.0",
+    "eslint-config-pegasus": "^3.3.0",
     "eslint-plugin-angular": "^4.1.0",
     "grunt": "^1.4.1",
     "grunt-contrib-clean": "^2.0.0",
@@ -46,10 +46,10 @@
     "grunt-contrib-watch": "^1.1.0",
     "husky": "^7.0.4",
     "is-ci": "^3.0.1",
-    "karma": "^6.3.16",
-    "karma-chrome-launcher": "^3.1.0",
+    "karma": "^6.3.17",
+    "karma-chrome-launcher": "^3.1.1",
     "karma-jasmine": "^4.0.1",
-    "lint-staged": "^12.3.4",
+    "lint-staged": "^12.3.5",
     "load-grunt-tasks": "^5.1.0"
   }
 }
