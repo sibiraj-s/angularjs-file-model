@@ -28,13 +28,13 @@
     "ng-file"
   ],
   "devDependencies": {
-    "@coffeelint/cli": "^5.2.4",
-    "@commitlint/cli": "^16.2.1",
+    "@coffeelint/cli": "^5.2.5",
+    "@commitlint/cli": "^16.2.3",
     "@commitlint/config-conventional": "^16.2.1",
     "angular": "^1.8.2",
     "angular-mocks": "^1.8.2",
     "coffeelint-reporter": "^3.0.0",
-    "eslint": "^8.11.0",
+    "eslint": "^8.12.0",
     "eslint-config-pegasus": "^3.3.0",
     "eslint-plugin-angular": "^4.1.0",
     "grunt": "^1.4.1",
@@ -42,14 +42,14 @@
     "grunt-contrib-coffee": "^2.1.0",
     "grunt-contrib-concat": "^2.0.0",
     "grunt-contrib-copy": "^1.0.0",
-    "grunt-contrib-uglify": "^5.0.1",
+    "grunt-contrib-uglify": "^5.1.0",
     "grunt-contrib-watch": "^1.1.0",
     "husky": "^7.0.4",
     "is-ci": "^3.0.1",
     "karma": "^6.3.17",
     "karma-chrome-launcher": "^3.1.1",
-    "karma-jasmine": "^4.0.1",
-    "lint-staged": "^12.3.5",
+    "karma-jasmine": "^4.0.2",
+    "lint-staged": "^12.3.7",
     "load-grunt-tasks": "^5.1.0"
   }
 }
